@@ -7,7 +7,7 @@
 ## Demo
 
 <p align="center">
-  <img width="700" align="center" src="https://media.giphy.com/media/1lvotGQwhzi6O0gQtV/giphy.gif" alt="demo"/>
+  <img width="700" align="center" src="https://media.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif" alt="demo"/>
 </p>
 
 ## How to install 
