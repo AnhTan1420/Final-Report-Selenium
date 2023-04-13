@@ -26,21 +26,24 @@ for i in range(2, nrows+1):
     if data == "Chrome":
         try:
             driver = webdriver.Chrome(executable_path='/home/anhtan/ExcelProject/webdriver/chromedriver')
+            sheet_obj.cell(row=i, column=6).value = "PASS"
         except Exception:
-            sheet_obj.cell(row=i, column=6).value = "x"
+            sheet_obj.cell(row=i, column=6).value = "FAIL"
     if data == "Firefox":
         try:
             driver = webdriver.Firefox(executable_path='/home/anhtan/ExcelProject/webdriver/geckodriver')
+            sheet_obj.cell(row=i, column=6).value = "PASS"
         except Exception:
-            sheet_obj.cell(row=i, column=6).value = "x"
+            sheet_obj.cell(row=i, column=6).value = "FAIL"
             
     actions = ActionChains(webdriver)
     if Module == "Navigate":
         try:
             driver.get(data)
+            sheet_obj.cell(row=i, column=6).value = "PASS"
             driver.maximize_window()
         except Exception:
-            sheet_obj.cell(row=i, column=6).value = "x"
+            sheet_obj.cell(row=i, column=6).value = "FAIL"
             
     if action_type == "textbox":
         try:
