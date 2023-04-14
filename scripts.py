@@ -1,4 +1,3 @@
-
 import openpyxl
 from selenium.webdriver import Keys, ActionChains
 from selenium import webdriver
@@ -103,6 +102,6 @@ for i in range(2, nrows+1):
 wb_obj.save("data.xlsx")
 
 time.sleep(3)
-driver.save_screenshot("/home/anhtan/ExcelProject/test.png")
+driver.save_screenshot("/home/anhtan/Report-Selenium/test.png")
 
 driver.quit()
