@@ -24,13 +24,13 @@ for i in range(2, nrows+1):
     
     if data == "Chrome":
         try:
-            driver = webdriver.Chrome(executable_path='/home/anhtan/Report-Final/webdriver/chromedriver')
+            driver = webdriver.Chrome(executable_path='./Report-Final/webdriver/chromedriver')
             sheet_obj.cell(row=i, column=6).value = "PASS"
         except Exception:
             sheet_obj.cell(row=i, column=6).value = "FAIL"
     if data == "Firefox":
         try:
-            driver = webdriver.Firefox(executable_path='/home/anhtan/Report-Final/webdriver/geckodriver')
+            driver = webdriver.Firefox(executable_path='./Report-Final/webdriver/geckodriver')
             sheet_obj.cell(row=i, column=6).value = "PASS"
         except Exception:
             sheet_obj.cell(row=i, column=6).value = "FAIL"
