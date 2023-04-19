@@ -5,14 +5,12 @@ from selenium.webdriver.common.by import By
 import time
 
 
-path = "data.xlsx"
+path = "data/testdata1.xlsx"
 wb_obj = openpyxl.load_workbook(path)
 sheet_obj = wb_obj.active
 nrows = sheet_obj.max_row
 ncol = sheet_obj.max_column
 
-print(nrows)
-print(ncol)
 
 for i in range(2, nrows+1):
     Module = sheet_obj.cell(row=i, column=1).value
