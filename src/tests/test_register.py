@@ -39,8 +39,8 @@ class TestRegister(BaseTest):
         lastname = xlReader.get_cell_data(10, 3)
         firstname = xlReader.get_cell_data(11, 3)
         gender = xlReader.get_cell_data(12, 3)
-        birthday = xlReader.get_cell_data(19, 3)
-        email = xlReader.get_cell_data(14, 3)
+        birthday = xlReader.get_cell_data(21, 3)
+        email = xlReader.get_cell_data(15, 3)
         password = xlReader.get_cell_data(15, 3)
         # launch url
         self.registerPage.register(
@@ -54,8 +54,8 @@ class TestRegister(BaseTest):
         firstname = xlReader.get_cell_data(11, 3)
         gender = xlReader.get_cell_data(12, 3)
         birthday = xlReader.get_cell_data(13, 3)
-        email = xlReader.get_cell_data(14, 3)
-        password = xlReader.get_cell_data(18, 3)
+        email = xlReader.get_cell_data(16, 3)
+        password = xlReader.get_cell_data(20, 3)
         # launch url
         self.registerPage.register(
             lastname, firstname, gender, birthday, email, password)

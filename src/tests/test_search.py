@@ -13,6 +13,5 @@ class TestSearch(BaseTest):
         xlReader.load_excel()
         searchname = xlReader.get_cell_data(21, 3)
         self.searchPage.search(searchname)
-        
         assert "Không tìm thấy nội dung bạn yêu cầu"\
         in self.searchPage.get_error()
