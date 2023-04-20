@@ -36,7 +36,8 @@
 
 ## How to run
 ### Edit Data Excel
-![image](https://user-images.githubusercontent.com/58280404/233262851-0948f480-c6d9-467e-b0b3-ff3b7e2b057e.png)
+![image](https://user-images.githubusercontent.com/58280404/233416297-c0b590f0-145f-41a7-a4b9-66c9fa85acbd.png)
+
 
 ### Run Each Case
 ```
