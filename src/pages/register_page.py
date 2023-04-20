@@ -35,6 +35,6 @@ class RegisterPage(BasePage):
 
     def verifyRegister(self):
         return self.get_text(self.verify_account)
-    
+
     def get_error_text(self):
         return self.get_text(self.error_text)

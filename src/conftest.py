@@ -4,6 +4,7 @@ import random
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
 
 # browser = "chrome"
 from src import settings
@@ -45,10 +46,11 @@ def getDriver(request, getBrowser):
     driver.get(url)
     driver.maximize_window()
     driver.implicitly_wait(10)
+    driver.find_element(By.XPATH, '//*[@id="popup-contact"]/div/div/div/button').click()
 
     # request.cls.basePage = BasePage(driver)
-    request.cls.loginPage = LoginPage(driver)
     request.cls.registerPage = RegisterPage(driver)
+    request.cls.loginPage = LoginPage(driver)
     request.cls.searchPage = SearchPage(driver)
     # request.cls.driver = _driver
     # yield request.cls.driver
