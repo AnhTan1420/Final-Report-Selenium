@@ -1,5 +1,4 @@
 # Final-Report-Selenium
-## OS: Mac/Linux
 
 ### Website : https://nhanvan.vn/
 
