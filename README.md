@@ -23,9 +23,13 @@
 ```
 
 ### Activate .venv
-
+#### Mac/Linux
 ```
  source .venv/bin/activate
+```
+#### Window
+```
+.venv/Scripts/activate
 ```
 
 ### Install requirements.txt
