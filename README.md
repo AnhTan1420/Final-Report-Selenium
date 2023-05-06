@@ -6,6 +6,8 @@
 
 ### Project Report : https://drive.google.com/file/d/1_x2-CigxZtpLEB6DV2UAZiDHzEICpfCc/view?usp=sharing
 
+### Slide Report : https://docs.google.com/presentation/d/1199NIXHjhg1_f7yM-2sa__A2b0fpvz8b/edit?usp=sharing&ouid=117418363728260771379&rtpof=true&sd=true
+
 
 
 ## Demo
