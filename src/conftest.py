@@ -44,7 +44,7 @@ def getDriver(request, getBrowser):
     xlReader.load_excel()
     url = xlReader.get_cell_data(7, 3)
     driver.get(url)
-    driver.find_element(By.XPATH, '//*[@id="popup-contact"]/div/div/div/button').click()
+    """ driver.find_element(By.XPATH, '//*[@id="popup-contact"]/div/div/div/button').click() """
     driver.maximize_window()
     driver.implicitly_wait(10)
     
