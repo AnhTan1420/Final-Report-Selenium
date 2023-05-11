@@ -4,9 +4,6 @@
 
 ### Test Cases Manual : https://docs.google.com/spreadsheets/d/15JI9ma6HdpQmdbwhCUzVP3ujO8iiQbgd/edit?usp=sharing&ouid=100499490863982465973&rtpof=true&sd=true
 
-### Document Report : https://docs.google.com/document/d/1LmMcX2ZmzTCnPe7JpjZZK8qasg_z_EOn/edit?usp=sharing&ouid=117418363728260771379&rtpof=true&sd=true
-
-### Slide Report : https://docs.google.com/presentation/d/1199NIXHjhg1_f7yM-2sa__A2b0fpvz8b/edit?usp=sharing&ouid=117418363728260771379&rtpof=true&sd=true
 
 
 
