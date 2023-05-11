@@ -22,22 +22,21 @@
 ### Install venv
 #### Mac/Linux
 ```
- source .venv/bin/activate
-```
-#### Window
-```
-.venv/Scripts/activate
-```
-### Activate .venv
-#### Mac/Linux
-```
 python3 -m pip install --user virtualenv
 ```
 #### Window
 ```
 py -m pip install --user virtualenv
 ```
-
+### Activate .venv
+#### Mac/Linux
+```
+ source .venv/bin/activate
+```
+#### Window
+```
+.venv/Scripts/activate
+```
 ### Install requirements.txt
 
 ```
