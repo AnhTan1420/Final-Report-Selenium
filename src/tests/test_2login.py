@@ -11,6 +11,8 @@ class TestLogin(BaseTest):
         password = xlReader.get_cell_data(17, 3)
         # launch url
         self.loginPage.login(username, password)
+        
+        self.loginPage.img_register('img/Login/test_valid_login.png')
 
     def test_invalid_login(self):
         xlReader.load_excel()
@@ -26,3 +28,6 @@ class TestLogin(BaseTest):
         if not self.loginPage.get_locked_error_text():
             assert "Số điện thoại không hợp lệ." \
                 in self.loginPage.get_locked_error_text()
+
+        self.loginPage.img_register('img/Login/test_invalid_login.png')
+

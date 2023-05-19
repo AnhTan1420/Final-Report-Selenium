@@ -26,3 +26,6 @@ class LoginPage(BasePage):
 
     def get_locked_error_text(self):
         return self.get_text(self.locked_error_text)
+    
+    def img_register(self, locator):
+        self.screenshot(locator)

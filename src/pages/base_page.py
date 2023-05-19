@@ -32,3 +32,6 @@ class BasePage:
     def select_by_text(self, by_locator, option):
         select = Select(self.get_element(by_locator))
         select.select_by_visible_text(option)
+
+    def screenshot(self, locator):
+        self.driver.save_screenshot(locator)

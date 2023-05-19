@@ -22,5 +22,8 @@ class SearchPage(BasePage):
     
     def get_error(self):
         return self.get_text(self.error_text)
+    
+    def img_register(self, locator):
+        self.screenshot(locator)
         
         

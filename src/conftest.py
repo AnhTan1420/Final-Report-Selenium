@@ -35,10 +35,10 @@ def getDriver(request, getBrowser):
     print("browser from getBrowser method - " + getBrowser)
     if getBrowser == "chrome":
         driver = webdriver.Chrome(service=Service(
-            "/mnt/Local/Report-Final/webdriver/chromdriver"))
+            "/webdriver/chromedriver"))
     elif getBrowser == "firefox":
         driver = webdriver.Firefox(
-            executable_path="/mnt/Local/Report-Final/webdriver/geckodriver")
+            executable_path="webdriver/geckodriver")
     # env = request.config.getoption("--env")
     # _driver.get("https://www." + env + "")
     xlReader.load_excel()
@@ -57,7 +57,4 @@ def getDriver(request, getBrowser):
     # yield request.cls.driver
     yield driver
     time.sleep(2)
-    driver.save_screenshot('image/screenshot#' +
-                           str(random.randint(0, 28)) + '.png')
-   
     driver.quit()

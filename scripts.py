@@ -97,7 +97,7 @@ for i in range(2, nrows+1):
 
 
 
-wb_obj.save("data.xlsx")
+wb_obj.save("data/testdata1.xlsx")
 
 time.sleep(3)
 driver.save_screenshot("/home/anhtan/Report-Selenium/test.png")
