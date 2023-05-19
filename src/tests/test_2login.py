@@ -11,7 +11,7 @@ class TestLogin(BaseTest):
         password = xlReader.get_cell_data(17, 3)
         # launch url
         self.loginPage.login(username, password)
-        
+        assert self.loginPage.verifyRegister()
         self.loginPage.img_register('img/Login/test_valid_login.png')
 
     def test_invalid_login(self):

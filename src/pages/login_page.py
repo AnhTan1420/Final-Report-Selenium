@@ -17,6 +17,7 @@ class LoginPage(BasePage):
         By.CSS_SELECTOR, "#customer_login > div.clearfix.action_account_custommer > div.action_bottom.button.dark > button")
     locked_error_text = (
         By.CSS_SELECTOR, "#customer_login > div.errors > ul > li")
+    verify_account = (By.XPATH, '//*[@id="customer_sidebar"]/div[1]/div[1]')
 
     def login(self, username, password):
         self.click(self.navigate_login_page)
@@ -27,5 +28,8 @@ class LoginPage(BasePage):
     def get_locked_error_text(self):
         return self.get_text(self.locked_error_text)
     
+    def verifyRegister(self):
+        return self.get_text(self.verify_account)
+
     def img_register(self, locator):
         self.screenshot(locator)
