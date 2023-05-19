@@ -8,7 +8,7 @@ class TestLogin(BaseTest):
     def test_valid_login(self):
         xlReader.load_excel()
         username = xlReader.get_cell_data(14, 3)
-        password = xlReader.get_cell_data(17, 3)
+        password = xlReader.get_cell_data(15, 3)
         # launch url
         self.loginPage.login(username, password)
         assert self.loginPage.verifyRegister()
