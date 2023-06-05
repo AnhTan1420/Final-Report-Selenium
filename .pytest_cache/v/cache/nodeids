@@ -1,0 +1,6 @@
+[
+  "src/tests/test_1register.py::TestRegister::test_register",
+  "src/tests/test_1register.py::TestRegister::test_validate_birthday",
+  "src/tests/test_1register.py::TestRegister::test_validate_email",
+  "src/tests/test_1register.py::TestRegister::test_validate_password"
+]
