@@ -10,7 +10,7 @@
 ## Demo
 
 <p align="center">
-  <img width="700" align="center" src="https://github.com/AnhTan1420/Final-Report-Selenium/blob/main/video/2023-06-18%2011-06-58.mkv" alt="demo"/>
+  <img width="700" align="center" src="https://github.com/AnhTan1420/Final-Report-Selenium/blob/main/video/2023-06-18%2011-06-58.mkv" alt="Demo"/>
 </p>
 
 ## How to install 
