@@ -2,5 +2,9 @@
   "src/tests/test_1register.py::TestRegister::test_register",
   "src/tests/test_1register.py::TestRegister::test_validate_birthday",
   "src/tests/test_1register.py::TestRegister::test_validate_email",
-  "src/tests/test_1register.py::TestRegister::test_validate_password"
+  "src/tests/test_1register.py::TestRegister::test_validate_password",
+  "src/tests/test_2login.py::TestLogin::test_invalid_login",
+  "src/tests/test_2login.py::TestLogin::test_valid_login",
+  "src/tests/test_3search.py::TestSearch::test_search",
+  "src/tests/test_3search.py::TestSearch::test_search_not_found"
 ]

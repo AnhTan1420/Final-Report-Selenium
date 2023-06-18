@@ -6,15 +6,18 @@ from src.utility import xlReader
 class TestLogin(BaseTest):
 
     def test_valid_login(self):
+
         xlReader.load_excel()
         username = xlReader.get_cell_data(14, 3)
         password = xlReader.get_cell_data(15, 3)
         # launch url
         self.loginPage.login(username, password)
         assert self.loginPage.verifyRegister()
+        
         self.loginPage.img_register('img/Login/test_valid_login.png')
 
     def test_invalid_login(self):
+
         xlReader.load_excel()
         username = xlReader.get_cell_data(19, 3)
         password = xlReader.get_cell_data(20, 3)
@@ -30,4 +33,3 @@ class TestLogin(BaseTest):
                 in self.loginPage.get_locked_error_text()
 
         self.loginPage.img_register('img/Login/test_invalid_login.png')
-

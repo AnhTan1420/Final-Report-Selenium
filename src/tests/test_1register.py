@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 class TestRegister(BaseTest):
 
     def test_register(self):
+
         xlReader.load_excel()
         lastname = xlReader.get_cell_data(10, 3)
         firstname = xlReader.get_cell_data(11, 3)
@@ -22,6 +23,7 @@ class TestRegister(BaseTest):
         self.registerPage.img_register('img/Register/test_register.png')
 
     def test_validate_email(self):
+
         xlReader.load_excel()
         lastname = xlReader.get_cell_data(10, 3)
         firstname = xlReader.get_cell_data(11, 3)
@@ -39,6 +41,7 @@ class TestRegister(BaseTest):
         self.registerPage.img_register('img/Register/test_validate_email.png')
 
     def test_validate_birthday(self):
+
         xlReader.load_excel()
         lastname = xlReader.get_cell_data(10, 3)
         firstname = xlReader.get_cell_data(11, 3)
@@ -55,6 +58,7 @@ class TestRegister(BaseTest):
         self.registerPage.img_register('img/Register/test_validate_birthday.png')
 
     def test_validate_password(self):
+        
         xlReader.load_excel()
         lastname = xlReader.get_cell_data(10, 3)
         firstname = xlReader.get_cell_data(11, 3)
