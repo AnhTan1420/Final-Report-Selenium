@@ -24,6 +24,9 @@
 ```
 python3 -m pip install --user virtualenv
 ```
+```
+sudo apt install python3-venv
+```
 #### Window
 ```
 py -m pip install --user virtualenv
