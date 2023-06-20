@@ -57,4 +57,4 @@ def getDriver(request, getBrowser):
     # yield request.cls.driver
     yield driver
     time.sleep(2)
-    driver.quit()
+    driver.quit() 
